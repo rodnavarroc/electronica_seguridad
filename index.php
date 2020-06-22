@@ -3,7 +3,7 @@
 <head>
 	<title>Electrónica | Cámaras de Seguridad</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Patua+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Encode+Sans&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="https://kit.fontawesome.com/94f47f52fa.js" crossorigin="anonymous"></script>
@@ -25,6 +25,8 @@
           <li class="nav-item active">
             <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>&nbsp;Carrito</a>
           </li>
+          <span style="color: #101010;"><hr></span>
+          <div class="d-none d-sm-block vl"></div>
           <li class="nav-item active">
             <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i>&nbsp;Productos</a>
           </li>
@@ -75,7 +77,7 @@
 
         <!-- /.card -->
 		
-		<br><br><center><h3 class="text-light" style="font-family: Patua One; background-color: #0c996a; padding: 1% 3%;">Marcas que manejamos</h3></center>
+		<br><br><center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Marcas que manejamos</h3></center>
           <br><br>
           <div class="row">
           	<div class="col-6 col-md-3"><img src="https://shieldsecurity.com.mx/img/cms/Epcom-logo.png" class="img-fluid" style="width: 100%;"></div>
@@ -86,7 +88,7 @@
           <br><br>
         <!-- /.card -->
 
-        <center><h3 class="text-light" style="font-family: Patua One; background-color: #0c996a; padding: 1% 3%;">Colaboraciones</h3></center>
+        <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Colaboraciones</h3></center>
           <br>
           <div class="row">
           	<p style="font-size: 18px;">Faltan imágenes para esta sección</p>
@@ -104,14 +106,15 @@
   	<div class="container bg-dark text-light" style="padding: 1% 3%;"><br>
       <div class="row">
 	      	<div class="col-12 col-md-3">
-		      	<center><p style="font-family: Patua One; font-size: 21px;">Productos</p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Productos</p></center>
 		      		<center>
 		      			<p>Cámaras de seguridad</p>
 		      			<p>Sistemas Inteligentes</p>
 		      		</center>
 	      </div>
 	      <div class="col-12 col-md-3">
-		      	<center><p style="font-family: Patua One; font-size: 21px;">Instalaciones</p></center>
+	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Instalaciones</p></center>
 		      		<center>
 		      			<p>Paneles Solares</p>
 		      			<p>Control de Acceso</p>
@@ -119,14 +122,19 @@
 		      		</center>
 	      </div>
 	      <div class="col-12 col-md-3">
-		      	<center><p style="font-family: Patua One; font-size: 21px;">Contacto</p></center>
+	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Contacto</p></center>
 		      		<center>
 		      			<p>¿Quiénes somos?</p>
 		      			<p>Solicita Cotización</p>
+		      			<span style="color: #101010;"><hr></span>
+		      			<p><i class="fab fa-facebook-square"></i>&nbsp; Facebook</p>
+		      			<p><i class="fab fa-instagram"></i>&nbsp; Instagram</p>
 		      		</center>
 	      </div>
 	      <div class="col-12 col-md-3">
-		      	<center><p style="font-family: Patua One; font-size: 21px;">Soporte</p></center>
+	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Soporte</p></center>
 		      		<center>
 		      			<p>Preguntas Frecuentes</p>
 		      		</center>
@@ -142,7 +150,7 @@
 
 </body>
 <style type="text/css">
-	.carousel-item {
+.carousel-item {
   height: 100%;
   min-height: 350px;
   background: no-repeat center center scroll;
@@ -150,6 +158,11 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.vl {
+  border-left: 1px solid #72cfb0;
+  height: 40px;
 }
 </style>
 </html>
