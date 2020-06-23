@@ -8,34 +8,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="https://kit.fontawesome.com/94f47f52fa.js" crossorigin="anonymous"></script>
 </head>
-<body style="font-family: Open Sans; background-image: url(https://i.ya-webdesign.com/images/website-background-patterns-png-2.png); background-repeat:no-repeat; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; background-position:center;">
+<body class="bg-light" style="font-family: Open Sans;">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0c996a;">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">DR Electrónica &nbsp;</a>
+      <a class="navbar-brand" href="index.php">DR Electrónica &nbsp;</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-store"></i>&nbsp;Productos</a>
+            <a class="nav-link" href="shop.php"><i class="fas fa-store"></i>&nbsp;Productos</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-phone"></i>&nbsp;Contacto</a>
+            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
         </ul>
         <div class="d-none d-sm-block">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" style="font-size: 20px;"><i class="far fa-user-circle"></i>&nbsp;</a>
+            <a class="nav-link" href="login.php" style="font-size: 20px;"><i class="far fa-user-circle"></i>&nbsp;</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" style="font-size: 20px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
+            <a class="nav-link" href="cart.php" style="font-size: 20px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
           </li>
         </ul>
       </div>
@@ -43,17 +43,17 @@
   </nav>
 
   <div class="navbarx d-block d-sm-none" id="myNavbar">
-  <a class="nav-link" href="#" style="color: #0c996a; float: left; font-size: 24px;"><i class="far fa-user-circle"></i>&nbsp;</a>
-  <a class="nav-link" href="#" style="color: #0c996a; float: right; font-size: 24px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
-  </div> 
+  <a class="nav-link" href="login.php" style="color: #212529; float: left; font-size: 24px;"><i class="far fa-user-circle"></i>&nbsp;</a>
+  <a class="nav-link" href="cart.php" style="color: #212529; float: right; font-size: 24px;"><i class="fas fa-shopping-cart"></i>&nbsp;</a>
+  </div>
 
   <!-- Page Content -->
   <div class="container">
-	<br><br><br>
+	<br>
     <div class="row">
       <!-- /.col-lg-3 -->
 
-      <div class="col-lg-12">
+      <div class="col-lg-12 bg-white">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		    <ol class="carousel-indicators">
 		      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -83,7 +83,7 @@
 
         <!-- /.card -->
 		
-		<br><br><center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Marcas que manejamos</h3></center>
+		<br><center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Nuestras marcas</h3></center>
           <br><br>
           <div class="row">
           	<div class="p-3 col-6 col-md-3"><img src="https://shieldsecurity.com.mx/img/cms/Epcom-logo.png" class="img-fluid" style="width: 100%;"></div>
@@ -106,18 +106,16 @@
           			<img src="https://pbs.twimg.com/profile_images/590503109551464448/WoRxB5ws_400x400.jpg" class="img-fluid" style="width: 60%;">
           		</center>
           	</div>
-          </div>
-          <br><br>
+          </div><br>
 
-        <br><br><center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Métodos de pago</h3></center>
-          <br><br>
+        <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Métodos de pago</h3></center>
           <div class="row">
           	<div class="p-3 col-6 col-md-3"><center><img src="https://i.imgur.com/LjzQUWY.png" class="img-fluid" style="width: 100%;"></center></div>
           	<div class="p-3 col-6 col-md-3"><center><img src="https://logodownload.org/wp-content/uploads/2014/07/mastercard-logo-7.png" class="img-fluid" style="width: 50%;"></center></div>
           	<div class="p-3 col-6 col-md-3"><center><img src="https://orekacloud.com/p/files/upload/224/q_4951ob600cv_isologoHorizontal.png" class="img-fluid" style="width: 100%;"></center></div>
           	<div class="p-3 col-6 col-md-3"><center><img src="https://logodownload.org/wp-content/uploads/2014/10/paypal-logo-3.png" class="img-fluid" style="width: 100%;"></center></div>
           </div>
-          <br><br>
+          <br>
 
       </div>
       <!-- /.col-lg-9 -->
@@ -173,6 +171,7 @@
 
 </body>
 <style type="text/css">
+
 .carousel-item {
   height: 100%;
   min-height: 350px;
