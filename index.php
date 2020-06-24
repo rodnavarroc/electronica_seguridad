@@ -26,7 +26,7 @@
             <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
+            <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
         </ul>
         <div class="d-none d-sm-block">

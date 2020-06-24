@@ -26,7 +26,7 @@
             <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
+            <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
         </ul>
         <div class="d-none d-sm-block">
@@ -53,12 +53,9 @@
   		<div class="col-12 col-md-6 p-5 text-light" style="background-color: #0c996a;">
   			<center>
   				<h3 class="card-title">¡Bienvenido a DR Electrónica!</h3><hr><br>
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua.</p>
+  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
 
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
   				<br><label><small>¿No tienes una cuenta?</small></label>
   				<br><a href="registro.php" class="btn btn-outline-light btn-lg">Registrarse&nbsp;<i class="fas fa-check-circle"></i></a>
   				<br><label><small>¡Es gratis!</small></label>
