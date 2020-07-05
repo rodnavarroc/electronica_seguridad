@@ -28,6 +28,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="instalaciones.php"><i class="fas fa-tools"></i>&nbsp;Instalaciones</a>
+          </li>
         </ul>
         <div class="d-none d-sm-block">
         <ul class="navbar-nav ml-auto">
@@ -54,7 +57,8 @@
       <!-- /.col-lg-3 -->
 
       <div class="col-lg-12 bg-white">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		    <ol class="carousel-indicators">
 		      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -62,14 +66,8 @@
 		    </ol>
 		    <div class="carousel-inner" role="listbox">
 		      <!-- Slide One - Set the background image for this slide in the line below -->
-		      <div class="carousel-item active" style="background-image: url('https://cdn.shopify.com/s/files/1/1933/6201/products/01_51b8818a-8626-442f-9ff0-8daaf2c5f8db.png?v=1577123013')">
-		      </div>
-		      <!-- Slide Two - Set the background image for this slide in the line below -->
-		      <div class="carousel-item" style="background-image: url('https://www.cyberpuerta.mx/img/product/XL/CP-EPCOM-B40-TURBO-X-1.jpg')">
-		      </div>
-		      <!-- Slide Three - Set the background image for this slide in the line below -->
-		      <div class="carousel-item" style="background-image: url('https://cctvdirectonline.co.uk/ekmps/shops/dbaaa5/images/2mp-thc-b120-mpirl-hilook-by-hikvision-hd-20m-exir-bullet-pir-cctv-camera-ip66-11724-p.jpg')">
-		      </div>  
+		      <div class="carousel-item active" style="background-image: url('https://i.imgur.com/3T6SYWy.jpg')">
+		      </div> 
 		    </div>
 		    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 		          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -96,17 +94,28 @@
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Colaboraciones</h3></center>
           <br>
-          <div class="row">
-          	<div class="p-3 col-12 col-md-6">
-          		<img src="https://ezvizonline.pe/wp-content/uploads/2018/01/C2C-with-Cat-1.jpg" class="img-fluid">
-          	</div>
-          	<div class="p-3 col-12 col-md-6">
-          		<center>
-          			<p style="font-size: 21px;">Puedes ayudar a la Fundación Nina con la compra de ciertos equipos.</p>
-          			<img src="https://pbs.twimg.com/profile_images/590503109551464448/WoRxB5ws_400x400.jpg" class="img-fluid" style="width: 60%;">
-          		</center>
-          	</div>
-          </div><br>
+          <center><h5>Con tus compras puedes ayudar a la Fundación Nina, ...</h5><br></center>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('https://i.imgur.com/qpO6hy4.jpg')">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+            </div>
+          <br>
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Métodos de pago</h3></center>
           <div class="row">
@@ -145,10 +154,10 @@
 	      </div>
 	      <div class="col-12 col-md-3">
 	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
-		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Contacto</p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><a href="contacto.php" style="text-decoration: none; color: white;">Contacto</a></p></center>
 		      		<center>
-		      			<p>¿Quiénes somos?</p>
-		      			<p>Solicita Cotización</p>
+		      			<p><a href="login.php" style="text-decoration: none; color: white;">¿Quiénes somos?</a></p>
+		      			<p><a href="cotizacion.php" style="text-decoration: none; color: white;">Solicita Cotización</a></p>
 		      			<span style="color: #101010;"><hr></span>
 		      			<a href="https://www.facebook.com/DR-ELECTRONICA-273945235991668/" target="blank" style="padding-bottom: 15px; text-decoration: none; display: block; color: white;"><i class="fab fa-facebook-square"></i>&nbsp; Facebook</a>
 		      		</center>

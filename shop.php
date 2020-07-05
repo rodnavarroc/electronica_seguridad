@@ -28,6 +28,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="instalaciones.php"><i class="fas fa-tools"></i>&nbsp;Instalaciones</a>
+          </li>
         </ul>
         <div class="d-none d-sm-block">
         <ul class="navbar-nav ml-auto">
@@ -67,36 +70,36 @@
   	
   	<br>
     <div class="row bg-white p-3">
-  		<div class="col-12 col-md-3 my-auto rounded-lg p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #f2f2f2;">
   			<center>
-  				<img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;">
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
 	  			<label>Cámara de Seguridad Epcom</label><br>
 	  			<label class="text-muted">B8TURBOG2</label><br>
 	  			<label class="text-dark">$399.90</label><br><br>
 	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-info rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
   			</center>
   		</div>
-  		<div class="col-12 col-md-3 my-auto rounded-lg p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #f2f2f2;">
   			<center>
-  				<img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;">
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
 	  			<label>Cámara de Seguridad Epcom</label><br>
 	  			<label class="text-muted">B8TURBOG2</label><br>
 	  			<label class="text-dark">$399.90</label><br><br>
 	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-info rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
   			</center>
   		</div>
-  		<div class="col-12 col-md-3 my-auto rounded-lg p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #f2f2f2;">
   			<center>
-  				<img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;">
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
 	  			<label>Cámara de Seguridad Epcom</label><br>
 	  			<label class="text-muted">B8TURBOG2</label><br>
 	  			<label class="text-dark">$399.90</label><br><br>
 	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-info rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
   			</center>
   		</div>
-  		<div class="col-12 col-md-3 my-auto rounded-lg p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #f2f2f2;">
   			<center>
-  				<img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;">
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
 	  			<label>Cámara de Seguridad Epcom</label><br>
 	  			<label class="text-muted">B8TURBOG2</label><br>
 	  			<label class="text-dark">$399.90</label><br><br>
@@ -171,6 +174,11 @@
   padding: 3% 5%;
   text-decoration: none;
   font-size: 17px;
+}
+
+.card_shop:hover
+{
+  background: #f2f2f2;
 }
 
 </style>

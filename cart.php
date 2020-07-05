@@ -28,6 +28,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="instalaciones.php"><i class="fas fa-tools"></i>&nbsp;Instalaciones</a>
+          </li>
         </ul>
         <div class="d-none d-sm-block">
         <ul class="navbar-nav ml-auto">
@@ -51,7 +54,7 @@
   <div class="container" style="padding-top: 100px;">
     <center><h3>Su carrito de compras</h3></center><br>
   	
-    <div class="row bg-white p-3">
+    <div class="row bg-white p-3" style="border: solid 0.5px; border-color: #d2d2d2;">
   		<div class="col-12 col-md-3">
         <a href="" class="btn text-muted" style="float: left; font-size: 13px;">Eliminar</a>
         <center><img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;"></center>
@@ -74,7 +77,7 @@
   	</div>
 
     <br>
-    <div class="row bg-white p-3">
+    <div class="row bg-white p-3" style="border: solid 0.5px; border-color: #d2d2d2;">
       <div class="col-12 col-md-3">
         <a href="" class="btn text-muted" style="float: left; font-size: 13px;">Eliminar</a>
         <center><img src="https://i.imgur.com/4EjuDZS.png" class="img-fluid" width="75%;"></center>

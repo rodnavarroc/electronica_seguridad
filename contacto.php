@@ -28,6 +28,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="instalaciones.php"><i class="fas fa-tools"></i>&nbsp;Instalaciones</a>
+          </li>
         </ul>
         <div class="d-none d-sm-block">
         <ul class="navbar-nav ml-auto">

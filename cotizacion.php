@@ -51,35 +51,43 @@
   </div> 
 
   <!-- Page Content -->
-  <div class="container" style="padding-top: 14%;">
+  <div class="container" style="padding-top: 8%;">
   	<div class="row bg-white">
-  		<div class="col-12 col-md-6 p-5 text-light" style="background-color: #0c996a;">
+  		<div class="col-12 col-md-4 p-5 text-light bg-info">
   			<center>
-  				<h3 class="card-title">¡Bienvenido a DR Electrónica!</h3><hr><br>
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-  				<br><label><small>¿No tienes una cuenta?</small></label>
-  				<br><a href="registro.php" class="btn btn-outline-light btn-lg">Registrarse&nbsp;<i class="fas fa-check-circle"></i></a>
-  				<br><label><small>¡Es gratis!</small></label>
+  				<h3 class="card-title">¡Visítanos!</h3><hr>
+  				<p class="text-light" style="font-size: 14px; text-align: justify;">Estamos ubicados en Av. las Puentes 516, Las Puentes 5o Sector, 66460 San Nicolás de los Garza, N.L.</p>
+  				<div class="gmap_canvas"><iframe width="100%;" height="350px;" id="gmap_canvas" src="https://maps.google.com/maps?q=dr%20electronica%20las%20puentes&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:200px;width:350px;}.gmap_canvas {overflow:hidden;background:none}</style>
   			</center>
   		</div>
-  		<div class="col-12 col-md-6 p-5">
-  			<form>
-  			  <center><h3 class="card-title">Iniciar Sesión</h3></center><hr><br>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Correo electrónico</label>
-			    <input type="email" class="form-control" placeholder="alguien@ejemplo.com">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Contraseña</label>
-			    <input type="password" class="form-control">
-			  </div><br>
-			  <center><button type="submit" class="btn btn-outline-success btn-lg">Ingresar&nbsp;<i class="fas fa-angle-right"></i></button></center>
-			</form>
+  		<div class="col-12 col-md-4 p-5">
+  			<center><h3 class="card-title">Contáctanos</h3></center><hr><br>
+  			<center>
+  			<label><b><i class="fas fa-phone-alt"></i>&nbsp;Teléfono:</b> (81) 1648 6963</label><br><br>
+  			<label><b><i class="fas fa-at"></i>&nbsp;Correo electrónico:</b> ventas_electronica@hotmail.com</label><br><br>
+  			<label><a class="text-dark text-decoration-none" href="https://www.facebook.com/DR-ELECTRONICA-273945235991668/" target="blank"><i class="fab fa-facebook-square"></i>&nbsp; <b>Facebook:</b> DR ELECTRONICA</a></label>
+  			</center>
   		</div>
+  		<div class="col-12 col-md-4 p-5">
+  			<center><h3 class="card-title">Solicita tu cotización</h3></center><hr>
+  			<center><p>Permítenos ayudarte</p></center><br>
+  			<form>
+  				<div class="form-group">
+  					<label>Nombre:</label>
+  					<input type="text" placeholder="Juan Ortíz Pérez" class="form-control">
+  				</div>
+  				<div class="form-group">
+  					<label>Correo electrónico:</label>
+  					<input type="email" placeholder="alguien@ejemplo.com" class="form-control">
+  				</div>
+  				<div class="form-group">
+  					<label>¿Qué servicio o producto necesitas?</label>
+  					<textarea class="form-control" rows="5" placeholder="Escribe aquí cómo podemos ayudarte en tu proyecto o negocio"></textarea>
+  				</div><br>
+  				<center><button type="submit" class="btn btn-outline-dark">Enviar</button></center><br><br>
+  			</form>
+  		</div> 
   	</div>
-  	<br><br>
   </div>
 
   <!-- Bootstrap core JavaScript -->

@@ -51,42 +51,20 @@
   </div> 
 
   <!-- Page Content -->
-  <div class="container" style="padding-top: 14%;">
-  	<div class="row bg-white">
-  		<div class="col-12 col-md-6 p-5 text-light" style="background-color: #0c996a;">
-  			<center>
-  				<h3 class="card-title">¡Bienvenido a DR Electrónica!</h3><hr><br>
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-  				<br><label><small>¿No tienes una cuenta?</small></label>
-  				<br><a href="registro.php" class="btn btn-outline-light btn-lg">Registrarse&nbsp;<i class="fas fa-check-circle"></i></a>
-  				<br><label><small>¡Es gratis!</small></label>
-  			</center>
-  		</div>
-  		<div class="col-12 col-md-6 p-5">
-  			<form>
-  			  <center><h3 class="card-title">Iniciar Sesión</h3></center><hr><br>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Correo electrónico</label>
-			    <input type="email" class="form-control" placeholder="alguien@ejemplo.com">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Contraseña</label>
-			    <input type="password" class="form-control">
-			  </div><br>
-			  <center><button type="submit" class="btn btn-outline-success btn-lg">Ingresar&nbsp;<i class="fas fa-angle-right"></i></button></center>
-			</form>
-  		</div>
+  <div class="container" style="padding-top: 100px;">
+    <center><h3>Instalaciones</h3></center>
+  	
+  	<br>
+    <div class="row bg-white p-3">
   	</div>
-  	<br><br>
+
+    <br><br>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
+<!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
 </body>
 <style type="text/css">
 
@@ -117,6 +95,11 @@
   padding: 3% 5%;
   text-decoration: none;
   font-size: 17px;
+}
+
+.card_shop:hover
+{
+  background: #f2f2f2;
 }
 
 </style>
