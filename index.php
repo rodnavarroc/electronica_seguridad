@@ -103,6 +103,8 @@
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Colaboraciones</h3></center>
           <br>
+          <h5><center>Con tus compras puedes ayudar a la <a href="https://www.facebook.com/fundacionninanl/" target="blank" style="text-decoration: none; color: #0c996a;">Fundación Nina</a>, quienes se dedican a ...</center></h5>
+          <br>
           <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
