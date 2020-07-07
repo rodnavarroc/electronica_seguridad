@@ -23,7 +23,10 @@
             <a class="nav-link" href="shop.php"><i class="fas fa-store"></i>&nbsp;Productos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
+            <a class="nav-link" href="tienda.php"><i class="fas fa-store-alt"></i>&nbsp;Tienda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="servicios.php"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
@@ -59,25 +62,31 @@
       <div class="col-lg-12 bg-white">
         
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		    <ol class="carousel-indicators">
-		      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		    </ol>
-		    <div class="carousel-inner" role="listbox">
-		      <!-- Slide One - Set the background image for this slide in the line below -->
-		      <div class="carousel-item active" style="background-image: url('https://i.imgur.com/3T6SYWy.jpg')">
-		      </div> 
-		    </div>
-		    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		          <span class="sr-only">Previous</span>
-		        </a>
-		    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		          <span class="sr-only">Next</span>
-		        </a>
-		  </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('https://cdn.shopify.com/s/files/1/1933/6201/products/01_51b8818a-8626-442f-9ff0-8daaf2c5f8db.png?v=1577123013')">
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('https://www.cyberpuerta.mx/img/product/XL/CP-EPCOM-B40-TURBO-X-1.jpg')">
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('https://cctvdirectonline.co.uk/ekmps/shops/dbaaa5/images/2mp-thc-b120-mpirl-hilook-by-hikvision-hd-20m-exir-bullet-pir-cctv-camera-ip66-11724-p.jpg')">
+          </div>  
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
 
         <!-- /.card -->
 		
@@ -94,23 +103,28 @@
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Colaboraciones</h3></center>
           <br>
-          <center><h5>Con tus compras puedes ayudar a la Fundación Nina, ...</h5><br></center>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active" style="background-image: url('https://i.imgur.com/qpO6hy4.jpg')">
                 </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://i.imgur.com/f46eCsY.jpg')">
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://i.imgur.com/gmqeWZZ.png')">
+                </div>  
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
@@ -137,15 +151,16 @@
   	<div class="container bg-dark text-light" style="padding-bottom: 45px;"><br>
       <div class="row">
 	      	<div class="col-12 col-md-3">
-		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Productos</p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="shop.php" style="text-decoration: none; color: white;">Productos</a></b></p></center>
 		      		<center>
 		      			<p>Cámaras de seguridad</p>
-		      			<p>Sistemas Inteligentes</p>
+		      			<p>Sistemas Inteligentes</p><hr>
+                <center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="servicios.php" style="text-decoration: none; color: white;">Servicios</a></b></p></center>
 		      		</center>
 	      </div>
 	      <div class="col-12 col-md-3">
 	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
-		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Instalaciones</p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="instalaciones.php" style="text-decoration: none; color: white;">Instalaciones</a></b></p></center>
 		      		<center>
 		      			<p>Paneles Solares</p>
 		      			<p>Control de Acceso</p>
@@ -154,7 +169,7 @@
 	      </div>
 	      <div class="col-12 col-md-3">
 	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
-		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><a href="contacto.php" style="text-decoration: none; color: white;">Contacto</a></p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><a href="contacto.php" style="text-decoration: none; color: white;"><b>Contacto</b></a></p></center>
 		      		<center>
 		      			<p><a href="login.php" style="text-decoration: none; color: white;">¿Quiénes somos?</a></p>
 		      			<p><a href="cotizacion.php" style="text-decoration: none; color: white;">Solicita Cotización</a></p>
@@ -164,7 +179,7 @@
 	      </div>
 	      <div class="col-12 col-md-3">
 	      	<span style="color: #101010;" class="d-block d-sm-none"><hr></span>
-		      	<center><p style="font-family: Encode Sans; font-size: 21px;">Soporte</p></center>
+		      	<center><p style="font-family: Encode Sans; font-size: 21px;"><b>Soporte</b></p></center>
 		      		<center>
 		      			<p>Preguntas Frecuentes</p>
 		      		</center>

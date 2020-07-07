@@ -23,7 +23,10 @@
             <a class="nav-link" href="shop.php"><i class="fas fa-store"></i>&nbsp;Productos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
+            <a class="nav-link" href="tienda.php"><i class="fas fa-store-alt"></i>&nbsp;Tienda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="servicios.php"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
@@ -101,6 +104,47 @@
   		</div>
   	</div>
   	<br>
+  </div>
+
+  <div>
+    <div class="container bg-dark text-light" style="padding-bottom: 45px;"><br>
+      <div class="row">
+          <div class="col-12 col-md-3">
+            <center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="shop.php" style="text-decoration: none; color: white;">Productos</a></b></p></center>
+              <center>
+                <p>Cámaras de seguridad</p>
+                <p>Sistemas Inteligentes</p><hr>
+                <center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="servicios.php" style="text-decoration: none; color: white;">Servicios</a></b></p></center>
+              </center>
+        </div>
+        <div class="col-12 col-md-3">
+          <span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+            <center><p style="font-family: Encode Sans; font-size: 21px;"><b><a href="instalaciones.php" style="text-decoration: none; color: white;">Instalaciones</a></b></p></center>
+              <center>
+                <p>Paneles Solares</p>
+                <p>Control de Acceso</p>
+                <p>Sistemas de Seguridad</p>
+              </center>
+        </div>
+        <div class="col-12 col-md-3">
+          <span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+            <center><p style="font-family: Encode Sans; font-size: 21px;"><a href="contacto.php" style="text-decoration: none; color: white;"><b>Contacto</b></a></p></center>
+              <center>
+                <p><a href="login.php" style="text-decoration: none; color: white;">¿Quiénes somos?</a></p>
+                <p><a href="cotizacion.php" style="text-decoration: none; color: white;">Solicita Cotización</a></p>
+                <span style="color: #101010;"><hr></span>
+                <a href="https://www.facebook.com/DR-ELECTRONICA-273945235991668/" target="blank" style="padding-bottom: 15px; text-decoration: none; display: block; color: white;"><i class="fab fa-facebook-square"></i>&nbsp; Facebook</a>
+              </center>
+        </div>
+        <div class="col-12 col-md-3">
+          <span style="color: #101010;" class="d-block d-sm-none"><hr></span>
+            <center><p style="font-family: Encode Sans; font-size: 21px;"><b>Soporte</b></p></center>
+              <center>
+                <p>Preguntas Frecuentes</p>
+              </center>
+        <br></div>
+      </div>
+    </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->

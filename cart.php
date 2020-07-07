@@ -23,7 +23,10 @@
             <a class="nav-link" href="shop.php"><i class="fas fa-store"></i>&nbsp;Productos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
+            <a class="nav-link" href="tienda.php"><i class="fas fa-store-alt"></i>&nbsp;Tienda</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="servicios.php"><i class="fas fa-cog"></i>&nbsp;Servicios</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="contacto.php"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>

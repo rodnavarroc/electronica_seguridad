@@ -54,38 +54,96 @@
   </div> 
 
   <!-- Page Content -->
-  <div class="container" style="padding-top: 14%;">
-  	<div class="row bg-white">
-  		<div class="col-12 col-md-6 p-5 text-light" style="background-color: #0c996a;">
+  <div class="container" style="padding-top: 100px;">
+    <center><h3>Productos en tienda</h3></center>
+    <div class="row bg-light text-dark pt-3">
+    	<div class="col-12 col-md-6"> 
+    		<select class="form-control" style="width: 100%;">
+    			<option>Ver todos los productos</option>
+    			<option>Ver kits</option>
+    			<option>Ver sistemas de seguridad</option>
+    			<option>Ver sistemas inteligentes </option>
+    		</select>
+    	</div>
+    	<div class="col-12 col-md-6">
+    		<div class="d-block d-sm-none"><br></div>
+    		<a class="btn btn-outline-success my-auto" href="" style="float: right;">Actualizar</a>
+    	</div>
+    </div>
+  	
+  	<br>
+    <div class="row bg-white p-3">
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
   			<center>
-  				<h3 class="card-title">¡Bienvenido a DR Electrónica!</h3><hr><br>
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-
-  				<p class="text-light" style="font-size: 14px; text-align: justify;">Aquí se colocaría información de la empresa que describa los servicios, productos y enfoque principal de la misma para atraer al cliente.</p>
-  				<br><label><small>¿No tienes una cuenta?</small></label>
-  				<br><a href="registro.php" class="btn btn-outline-light btn-lg">Registrarse&nbsp;<i class="fas fa-check-circle"></i></a>
-  				<br><label><small>¡Es gratis!</small></label>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
   			</center>
   		</div>
-  		<div class="col-12 col-md-6 p-5">
-  			<form>
-  			  <center><h3 class="card-title">Iniciar Sesión</h3></center><hr><br>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Correo electrónico</label>
-			    <input type="email" class="form-control" placeholder="alguien@ejemplo.com">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Contraseña</label>
-			    <input type="password" class="form-control">
-			  </div><br>
-			  <center><button type="submit" class="btn btn-outline-success btn-lg">Ingresar&nbsp;<i class="fas fa-angle-right"></i></button></center>
-			</form>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
+  		</div>
+  		<div class="col-12 col-md-3 my-auto rounded-lg p-3 card_shop" style="border: solid 0.5px; border-color: #d2d2d2;">
+  			<center>
+  				<img src="https://i.imgur.com/4EjuDZS.png" class="" width="75%;">
+	  			<label>Cámara de Seguridad Epcom</label><br>
+	  			<label class="text-muted">B8TURBOG2</label><br>
+	  			<label class="text-dark">$399.90</label><br><br>
+	  			<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success rounded-lg bn-sm p-2"><i class="fas fa-plus"></i>&nbsp;Ver detalles</a>
+  			</center>
   		</div>
   	</div>
-  	<br><br>
+
+    <br><br>
   </div>
 
-  <div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cámara de Seguridad Epcom</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label class="text-muted"><p>B8TURBOG2</p></label>
+        <p class="text-dark" style="text-align: justify;">Descripción del producto con los detalles del mismo para que el cliente pueda comprender su funcionamiento y verificar si es de utilidad para su necesidad.</p>
+        <p class="text-dark" style="text-align: justify;">
+        	<b>Características:</b>
+        	<ul>
+        		<li>Elemento característico</li>
+        		<li>Otro elemento característico</li>
+        		<li>Elemento característico final</li>
+        	</ul>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <a href="" class="btn btn-success"><i class="fas fa-plus"></i>&nbsp;Agregar al carrito</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
     <div class="container bg-dark text-light" style="padding-bottom: 45px;"><br>
       <div class="row">
           <div class="col-12 col-md-3">
@@ -130,7 +188,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
 </body>
 <style type="text/css">
 
@@ -161,6 +218,11 @@
   padding: 3% 5%;
   text-decoration: none;
   font-size: 17px;
+}
+
+.card_shop:hover
+{
+  background: #f2f2f2;
 }
 
 </style>
