@@ -103,35 +103,46 @@
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Colaboraciones</h3></center>
           <br>
-          <h5><center>Con tus compras puedes ayudar a la <a href="https://www.facebook.com/fundacionninanl/" target="blank" style="text-decoration: none; color: #0c996a;">Fundación Nina</a>, quienes se dedican a ...</center></h5>
-          <br>
-          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('https://i.imgur.com/qpO6hy4.jpg')">
+          <h5><center>Con tus compras puedes ayudar a la <a href="https://www.facebook.com/fundacionninanl/" target="blank" style="text-decoration: none; color: #0c996a;">Fundación Nina</a></center></h5>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+              <br>
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active" style="background-image: url('https://i.imgur.com/qpO6hy4.jpg')">
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url('https://i.imgur.com/f46eCsY.jpg')">
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url('https://i.imgur.com/9TYhnML.png')">
+                    </div>  
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                 </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('https://i.imgur.com/f46eCsY.jpg')">
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('https://i.imgur.com/gmqeWZZ.png')">
-                </div>  
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+
+              <div class="col-12 col-md-6 my-auto">
+                <span class="d-block d-sm-none"><br></span>
+                <center><img src="https://i.imgur.com/dqh0Blx.jpg" class="img-fluid" width="75%;"></center>
+              </div>
             </div>
-          <br>
+          </div>
+          <br><br>
 
         <center><h3 class="text-light" style="font-family: Encode Sans; background-color: #0c996a; padding: 10px 15px; font-size: 21px;">Métodos de pago</h3></center>
           <div class="row">
