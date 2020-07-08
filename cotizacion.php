@@ -134,7 +134,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" style="padding-bottom: 50px;">
     <div class="row">
       <div class="col-12">
         <center><p style="font-family: Inter; font-weight: lighter;" class="text-muted"><br><small style="font-size: 16px;">Copyright © 2020 <b>DR Electronica</b>. Proudly made by <b>Vinett</b>.</small></p></center>
