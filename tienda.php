@@ -3,7 +3,7 @@
 <head>
 	<title>DR Electrónica</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Encode+Sans&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Encode+Sans&famiy=Inter&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="https://kit.fontawesome.com/94f47f52fa.js" crossorigin="anonymous"></script>
@@ -183,6 +183,15 @@
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <center><p style="font-family: Inter; font-weight: lighter;" class="text-muted"><br><small style="font-size: 16px;">Copyright © 2020 <b>DR Electronica</b>. Proudly made by <b>Vinett</b>.</small></p></center>
+      </div>
+    </div>
+  </div>
+  <br>
 
   <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
